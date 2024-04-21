@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+https://github.com/ramazankayis/factTask/assets/11430627/e51aaf6e-884d-4393-88b7-389e366c6edd
+
+
 ## Getting Started
 
 First, run the development server:
