@@ -30,6 +30,7 @@ export default function Home() {
           ...item,
           id: index + 1,
         }));
+        setFacts(data.data);
       });
   };
 
@@ -77,6 +78,7 @@ export default function Home() {
         rowCount={50}
         columns={columns}
         pagination
+        paginationMode="server"
         onPageSizeChange={handlePageSizeChange}
         onPageChange={(e) => {
           handlePageChange(e);
