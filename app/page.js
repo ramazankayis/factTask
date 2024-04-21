@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { DataGrid } from "@mui/x-data-grid";
+
 import { DataGridPro } from "@mui/x-data-grid-pro";
 import Box from "@mui/material/Box";
 export default function Home() {
@@ -30,7 +30,6 @@ export default function Home() {
           ...item,
           id: index + 1,
         }));
-        console.log("data2", data), setFacts(data.data);
       });
   };
 
@@ -70,7 +69,6 @@ export default function Home() {
       ),
     },
   ];
-  console.log("array", facts);
 
   return (
     <div style={{ height: 400, width: "100%" }}>
@@ -99,11 +97,6 @@ export default function Home() {
       ) : (
         ""
       )}
-      {/* <Box sx={{ p: 2, border: "1px dashed grey" }}>
-        fact : {JSON.stringify(selectedRows.fact, null, 4)}
-        <br />
-        length : {JSON.stringify(selectedRows?.length, null, 4)}
-      </Box> */}
     </div>
   );
 }
